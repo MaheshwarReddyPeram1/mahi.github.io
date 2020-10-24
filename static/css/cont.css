@@ -1,0 +1,274 @@
+#title {
+    margin-left: 10%;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#title_contant {
+    color: white;
+    font-size: 22px;
+}
+
+#iframe {
+    height: 250px;
+    width: 75%;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#but {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.5;
+    margin-left: 5px;
+}
+
+#title_contant_online {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#title_contant_acces {
+    font-size: 22px;
+}
+
+#div_head {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#div_price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#div_bar {
+    font-size: 20px;
+}
+
+#div_bar1 {
+    font-size: 20px;
+    color: gray;
+}
+
+#div_bar2 {
+    font-size: 20px;
+    color: green;
+    margin-top: 15px;
+}
+
+#disp {
+    color: gray;
+}
+
+#but-1 {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    margin-left: 5px;
+}
+
+#enroll {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#enroll-1 {
+    color: black;
+    font-size: 30px;
+}
+
+.container {}
+
+#code {
+    border: 1px solid black;
+    display: inline;
+}
+
+#slot {
+    color: red;
+}
+
+#div_co1 {
+    color: gray;
+    font-size: 13px;
+}
+
+#div_co {
+    color: gray;
+    font-size: 11px;
+}
+
+#but-2 {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: orangered;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+#enroll-3 {
+    color: black;
+    font-size: 22px;
+}
+
+#pyth {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#pyth-1 {
+    color: white;
+    font-size: 22px;
+}
+
+#card {
+    border: 1px solid black;
+    background-color: white;
+    background-image: url('/static/image/white\ bg.png');
+    height: auto;
+    border-radius: 10px;
+}
+
+#company_image {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#avtar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+#company_logo {
+    width: 100px;
+    height: 80px;
+}
+
+#course_avtar {
+    color: rgb(105, 103, 103);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#project {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(105, 103, 103);
+}
+
+#project3 {
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+#kg {
+    color: rgb(105, 103, 103);
+}
+
+#kg-contant {
+    border: 1px solid rgb(105, 103, 103);
+    border-radius: 10px;
+}
+
+#kg-1 {
+    color: rgb(105, 103, 103);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#full {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: orangered;
+    font-size: 15px;
+    color: white;
+    height: 50px;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+#black_banner {
+    width: 100%;
+    height: 200px;
+}
+
+#inside_overview {
+    font-size: 18px;
+    color: white;
+}
+
+.btn-link {
+    width: 100%;
+    height: 35px;
+    text-decoration: none !important;
+    color: black;
+    text-align: left;
+    font-weight: bold !important;
+}
+
+.card,
+.card-hider {
+    background-color: transparent;
+}
+
+.card {
+    box-shadow: 0 2px 20px 0 rgb(110, 130, 208, .18);
+}
+
+.btn-link::after {
+    content: '\2212';
+    width: 35px;
+    text-align: center;
+    border-radius: 15px;
+    right: 15px;
+    top: 11px;
+    position: absolute;
+}
+
+.btn-link.collapsed::after {
+    content: '\002B';
+}
+
+.btn-link::before {
+    content: '';
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 35px;
+    top: 46px;
+}
+
+#cou {
+    border: 2px solid black;
+    width: 200px;
+}
+
+#liveclass {
+    color: rgb(105, 103, 103);
+    font-size: 15px;
+}
+
+#disppppp {
+    font-weight: bold;
+    font-style: italic;
+}

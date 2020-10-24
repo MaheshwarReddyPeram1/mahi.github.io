@@ -1,0 +1,76 @@
+#pythonnn {
+    color: #feefec;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.card,
+.card-header {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 2px 25px 0 rgba(110, 130, 208, .18);
+}
+
+.btn-link {
+    width: 100%;
+    height: 60px;
+    color: #000 !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.card-body {
+    height: auto;
+    background-color: transparent;
+}
+
+#curr {
+    color: white;
+    font-weight: bold;
+    color: #feefec;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#ccc {
+    color: black;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#py {
+    color: #a0c0c1;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -150px;
+}
+
+#he {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#project2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(105, 103, 103);
+}
+
+#kg2 {
+    color: rgb(105, 103, 103);
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}

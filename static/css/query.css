@@ -1,0 +1,36 @@
+#query {
+    color: rgb(61, 60, 60);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Category {
+    color: rgb(61, 60, 60);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#q_bar {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(229, 245, 243);
+    ;
+}
+
+#q-head {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#status {
+    border-radius: 10px;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 2px;
+    opacity: 0.5;
+}

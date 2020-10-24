@@ -1,0 +1,958 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------Navigation bar--*/
+
+.navbar-nav {
+    margin: 0px 20px;
+}
+
+.navbar-collapse {
+    margin: 0;
+    padding: 0;
+}
+
+#signupp:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    color: #0c265f;
+    border: 1px solid #0c265f;
+    outline: none;
+}
+
+#signupp {
+    background-color: #0c265f;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+}
+
+.icons {
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #0c265f;
+}
+
+
+/*--modal content--*/
+
+.modal-backdrop {
+    bottom: 0
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.modal-content {
+    background: none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+.varsig {
+    padding: 35px;
+    cursor: pointer;
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+    /*background: linear-gradient(to bottom right, #0033cc 22%, #99ccff 100%);*/
+    border-radius: 10px;
+}
+
+.studlink {
+    text-decoration: none;
+}
+
+.student {
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.parent {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.parafont {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.left {
+    background-color: rgb(81, 71, 214);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sigback {
+    padding: 80px;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+
+/*--Home page content--*/
+
+
+/*--reasearch--*/
+
+.text-muted {
+    font-size: 20px;
+}
+
+.rea {
+    border-radius: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--Courses--*/
+
+.cou {
+    color: white;
+}
+
+.couitem {
+    text-align: center;
+    background-color: #15b4ca;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.viewcourse {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #15b4ca;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.buycourse {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #15b4ca;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.couitem1 {
+    text-align: center;
+    background-color: #f10750;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.viewcourse1 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f10750;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.buycourse1 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f10750;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.couitem2 {
+    text-align: center;
+    background-color: #49bf7e;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.viewcourse2 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #49bf7e;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.buycourse2 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #49bf7e;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.couitem3 {
+    text-align: center;
+    background-color: #f9b920;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.viewcourse3 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f9b920;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.buycourse3 {
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #f9b920;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.couitem4 {
+    text-align: center;
+    background-color: #bd5ffd;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.viewcourse4 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #bd5ffd;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.buycourse4 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #bd5ffd;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.couitem5 {
+    text-align: center;
+    background-color: #ec509b;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.viewcourse5 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ec509b;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.buycourse5 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ec509b;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.filter {
+    background-color: #2d3092;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.filter:hover {
+    border: none;
+    opacity: 0.5;
+    font-weight: bold;
+    color: white;
+}
+
+
+/*--End--*/
+
+.end {
+    margin: 50px 0px;
+}
+
+.fontstyle {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.endpar {
+    text-align: center;
+    font-size: 22px;
+    opacity: 0.7;
+}
+
+.endbutton {
+    font-size: 20px;
+    padding: 20px 50px 20px 50px;
+    background-color: rgb(135, 178, 235);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.endbutton:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*footer*/
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footershortcut {
+    color: white;
+    font-size: 18px;
+}
+
+.footershortcut:hover {
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/*------Navigation bar--*/
+.navbar-nav{
+  margin: 0px 20px;
+}
+.navbar-collapse{
+    margin: 0;
+    padding: 0;
+}
+#signupp:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    color: #0c265f;
+}
+
+#signupp {
+    background-color: #0c265f;
+    border: 1px solid white;
+    color: white;
+}
+.icons{
+  font-size: 18px;
+  cursor: pointer;
+  color: #0c265f;
+}
+/*------Signup for--*/
+
+.right{
+    border-radius: 8px;
+}
+.form-row{
+    padding: 8px 0px;
+}
+.donate-now {
+    list-style-type: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+  }
+  .donate-now li {
+    float: left;
+    width: 65px;
+    height: 45px;
+    position: relative;
+    margin-right: 10px;
+  }
+  .donate-now label,
+  .donate-now input {
+    text-align:center;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .donate-now input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+  .donate-now input[type="radio"]:checked+label,
+  .Checked+label {
+    background: green;
+    color:white;
+  }
+  .donate-now label {
+    padding: 5px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    z-index: 90;
+  }
+
+/*------Footer--*/
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin:  2px;
+  border-radius: 50%;
+}
+.fa:hover{
+    color: white;
+    text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.footer{
+  margin: 0;
+  padding: 0;
+}
+  
+.footershortcut{
+  color: white;
+  font-size: 18px;
+}
+.footershortcut:hover{
+  color: white;
+}
+
+#paraa {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+#container123,
+.book-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container123 {
+    margin-bottom: 20px;
+}
+
+.book-content {
+    min-width: 80%;
+    max-width: 400px;
+    height: 430px;
+    position: relative;
+    perspective: 1000px;
+    transition: 1s;
+    justify-content: center;
+}
+
+.book {
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    transition: 1s;
+    transform-style: preserve-3d;
+    transform-origin: left;
+}
+
+.face-front,
+.face-back {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.face-front {
+    box-shadow: inset 3px 0px 20px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateZ(-1px) rotateY(180deg);
+    box-shadow: inset -3px 1px 20px -7px black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#portada {
+    background-color: #d2e2fb;
+}
+
+#portada-back {
+    background: url('../img/portadaBack.jpg');
+}
+
+#portada,
+#portada-back {
+    background-size: 100% 100%;
+}
+
+
+/* Clases que se agregaran con Javascript */
+
+.trnsf {
+    transform: translateX(200px);
+}
+
+.trnsf-reset {
+    transform: translateX(0px);
+}
+
+
+/* @media para hacer el texto responsivo */
+
+@media screen and (max-width: 800px) {
+    #paraa {
+        font-size: 12px;
+    }
+}
+
+:root {
+    --lg: 915%;
+}
+
+.box {
+    width: 100%;
+    height: 50vh;
+    /*background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+*/
+}
+
+.box .r-box {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: var(--lg);
+    left: 0%;
+    animation: animate 4s linear infinite;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+.box .r-box:nth-child(1) {
+    top: var(--lg);
+    left: 20%;
+    animation: animate 8s linear infinite;
+}
+
+.box .r-box:nth-child(2) {
+    top: var(--lg);
+    left: 79%;
+    animation: animate 10s linear infinite;
+}
+
+.box .r-box:nth-child(3) {
+    top: var(--lg);
+    left: 90%;
+    animation: animate 8s linear infinite;
+}
+
+.box .r-box:nth-child(4) {
+    top: var(--lg);
+    left: 65%;
+    animation: animate 7s linear infinite;
+}
+
+.box .r-box:nth-child(5) {
+    top: var(--lg);
+    left: 10%;
+    animation: animate 9s linear infinite;
+}
+
+.box .r-box:nth-child(6) {
+    top: var(--lg);
+    left: 60%;
+    animation: animate 5s linear infinite;
+}
+
+.box .r-box:nth-child(7) {
+    top: var(--lg);
+    left: 33%;
+    animation: animate 8s linear infinite;
+}
+
+.box .r-box:nth-child(8) {
+    top: var(--lg);
+    left: 40%;
+    animation: animate 10s linear infinite;
+}
+
+.box .r-box:nth-child(9) {
+    top: var(--lg);
+    left: 50%;
+    animation: animate 6s linear infinite;
+}
+
+.box .r-box:nth-child(10) {
+    top: var(--lg);
+    left: 7%;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY(0) rotate(50deg);
+    }
+    100% {
+        transform: scale(1.6) translateY(-150px) rotate(360deg);
+    }
+}
+
+.hero {
+    position: relative;
+    padding: 5em 0;
+    overflow: hidden;
+}
+
+.hero-bg {
+    background: linear-gradient(170deg, 64%, var(white) 30%);
+}
+
+.hero-image {
+    position: relative;
+    top: 2em;
+}
+
+#signupp:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: #0c265f;
+}
+
+#signupp {
+    background-color: #0c265f;
+    border: 1px solid white;
+    color: white;
+}
+
+.bubbly-button {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin-top: 20px;
+    margin-left: -15px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ff0081;
+    color: #fff;
+    border-radius: 4px;
+    opacity: 0.8;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+
+.bubbly-button:focus {
+    outline: 0;
+}
+
+.bubbly-button:before,
+.bubbly-button:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 200px;
+    height: 50px;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+}
+
+.bubbly-button:before {
+    display: none;
+    top: -75%;
+    background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ff0081 20%, transparent 30%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+
+.bubbly-button:after {
+    display: none;
+    bottom: -75%;
+    background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+
+.bubbly-button:active {
+    transform: scale(0.9);
+    background-color: #e60074;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+}
+
+.bubbly-button.animate:before {
+    display: block;
+    animation: topBubbles ease-in-out 0.75s forwards;
+}
+
+.bubbly-button.animate:after {
+    display: block;
+    animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+
+@keyframes topBubbles {
+    0% {
+        background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+    }
+    50% {
+        background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+    }
+    100% {
+        background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+
+@keyframes bottomBubbles {
+    0% {
+        background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+    }
+    50% {
+        background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    }
+    100% {
+        background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900');
+:root {
+    --text-color: hsla(210, 50%, 85%, 1);
+    --shadow-color: rgba(182, 151, 84, 0.4);
+    --btn-color: #ffc107;
+    --bg-color: white;
+    --text-color2: #0c265f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.button {
+    position: relative;
+    padding: 10px 20px;
+    border: 1px solid #ffc107;
+    background: none;
+    cursor: pointer;
+    font-family: "Source Code Pro";
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: var(--text-color2);
+    background-color: var(--btn-color);
+    box-shadow: var(--shadow-color) 2px 2px 22px;
+    border-radius: 4px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.button:focus {
+    outline-color: transparent;
+    box-shadow: var(--btn-color) 2px 2px 22px;
+}
+
+.right1::after,
+.button::after {
+    content: var(--content);
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    padding: 40px 40px;
+    pointer-events: none;
+}
+
+.button::after {
+    font-weight: 200;
+    top: -30px;
+    left: -20px;
+}
+
+.right1,
+.left1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.right1 {
+    left: 66%;
+}
+
+.left1 {
+    right: 66%;
+}
+
+.right1::after {
+    top: -30px;
+    left: calc(-66% - 20px);
+    background-color: var(--bg-color);
+    color: transparent;
+    transition: transform .4s ease-out;
+    transform: translate(0, -90%) rotate(0deg)
+}
+
+.button:hover .right1::after {
+    transform: translate(0, -47%) rotate(0deg)
+}
+
+.button .right1:hover::after {
+    transform: translate(0, -50%) rotate(-7deg)
+}
+
+.button .left1:hover~.right1::after {
+    transform: translate(0, -50%) rotate(7deg)
+}
+
+
+/* bubbles */
+
+.button::before {
+    content: '';
+    pointer-events: none;
+    opacity: .6;
+    background: radial-gradient(circle at 20% 35%, transparent 0, transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px), radial-gradient(circle at 75% 44%, transparent 0, transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px), radial-gradient(circle at 46% 52%, transparent 0, transparent 4px, var(--text-color) 5px, var(--text-color) 6px, transparent 6px);
+    width: 100%;
+    height: 300%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    animation: bubbles 5s linear infinite both;
+}
+
+@keyframes bubbles {
+    from {
+        transform: translate();
+    }
+    to {
+        transform: translate(0, -66.666%);
+    }
+}
